@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "Gisele Leonardi",
   "version": "2.0.0",
-  "description": "portfolio",
+  "description": "Gisele Leonardi",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --open",
@@ -48,7 +48,7 @@
       "jsx"
     ]
   },
-  "repository": "https://github.com/giseleml/new-portfolio",
+  "repository": "https://github.com/giseleml/gisele-leonardi",
   "author": "Gisele Leonardi",
   "license": "ISC",
   "private": false,

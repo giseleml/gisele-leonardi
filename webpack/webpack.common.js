@@ -51,6 +51,7 @@ module.exports = {
   plugins: [
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.ico',
       template: commonPaths.templatePath,
     }),
     new ScriptExtHtmlWebpackPlugin({

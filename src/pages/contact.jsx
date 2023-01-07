@@ -43,7 +43,7 @@ const Contact = () => (
       questions, suggestions and such, preferably through my email.
     </p>
     <p>
-      Let it be known that every single icon used on this website are free and
+      Let it be known that every single icon used on this website is free and
       are both from Freepik and Icons8 as well.
     </p>
   </div>

@@ -14,15 +14,15 @@ const Screen = () => {
 
   return (
     <div className={Styles.wrapper}>
-      <Notepad>
+      <Notepad onClick={page => setContent(page)}>
         {content === 'about' && <About />}
         {content === 'skills' && <Skills />}
         {content === 'contact' && <Contact />}
       </Notepad>
       <div className={Styles.buttons}>
-        <Button onClick={() => setContent('about')} />
-        <Button onClick={() => setContent('skills')} />
-        <Button onClick={() => setContent('contact')} />
+        <Button title="about" onClick={() => setContent('about')} />
+        <Button title="skills" onClick={() => setContent('skills')} />
+        <Button title="contact" onClick={() => setContent('contact')} />
       </div>
     </div>
   );

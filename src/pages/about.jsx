@@ -22,7 +22,7 @@ and I'm a huge skincare enthusiast. Let's share our routines!`;
 
 const About = () => (
   <div className={Styles.wrapper}>
-    <h2>About Me &hearts;</h2>
+    <h2>Gisele Leonardi &hearts; Software Developer</h2>
     <img src={me} alt="A selfie of me" />
     <br />
     <p>{professional}</p>

@@ -2,10 +2,17 @@ import React from 'react';
 
 import Screen from './containers/Screen';
 
-import './index.css';
+import Styles from './index.css';
 
 const App = () => {
-  return <Screen />;
+  return (
+    <div className={Styles.main}>
+      <Screen />
+      <div className={Styles.footer}>
+        Made with <span style={{ color: '#000' }}>&#9829;</span> by me
+      </div>
+    </div>
+  );
 };
 
 export default App;
