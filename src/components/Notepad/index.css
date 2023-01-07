@@ -33,7 +33,7 @@
   height: auto;
   background-color: #FFF;
   overflow-y: scroll;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   scrollbar-color: #CCE5F4 #FDFC91;
   scrollbar-gutter: stable;
   max-height: 30rem;

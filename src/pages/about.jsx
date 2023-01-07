@@ -4,7 +4,7 @@ import Styles from './index.css';
 
 import me from './images/me.jpg';
 
-const professional = `Hello! I'm a brazilian dev who loves coding. I'm a great team worker - 
+const professional = `Hey! I'm a brazilian dev who loves coding. I'm a great team worker - 
 I like to help and listen to others' point of view but I also can guide myself well.
 I've gratuaded in "Systems For The Internet" (equivalent of Associate Degree) and I've
 been working as a software developer for 2,5 years`;
