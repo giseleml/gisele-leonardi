@@ -1,0 +1,44 @@
+.wrapper {
+  width: auto;
+  height: auto;
+  min-height: 25rem;
+  max-width: 75rem;
+  background-color: #F3D5E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.wrapper p {
+  font-size: 1.4rem;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.wrapper h2 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons :nth-child(1) {
+  background-color: #FFFB8D;
+}
+
+.buttons :nth-child(2) {
+  background-color: #C4F895;
+}
+
+.buttons :nth-child(3) {
+  background-color: #82D4F3;
+}

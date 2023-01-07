@@ -1,0 +1,40 @@
+.wrapper {
+  width: auto;
+  height: auto;
+  background-color: #FFB6B6;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1px 0 1px;
+  position: relative;
+  top: -3rem;
+  flex-wrap: wrap;
+}
+
+.hearts {
+  align-self: flex-end;
+  padding: 0.5rem 0.5rem;
+}
+
+.hearts img {
+  padding-right: 0.8rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.block {
+  width: auto;
+  height: auto;
+  background-color: #FFF;
+  overflow-y: scroll;
+  padding: 1rem 2rem;
+  scrollbar-color: #CCE5F4 #FDFC91;
+  scrollbar-gutter: stable;
+  max-height: 30rem;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  width: 2rem;
+}

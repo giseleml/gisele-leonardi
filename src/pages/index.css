@@ -1,0 +1,55 @@
+/* About & Skills */
+.wrapper img {
+  float: right;
+  border-radius: 0.5rem;
+  border-width: 0.4rem;
+  border-style: double;
+  border-color: #C394AA;
+}
+
+.wrapper p {
+  text-align: left;
+  max-width: 70%;
+}
+
+/* Skills */
+.skillsImg {
+  float: right;
+  border-radius: 0.5rem;
+  border-width: 0.4rem;
+  border-style: double;
+  border-color: #C394AA;
+}
+
+/* Contact */
+.contact_wrapper img:nth-child(2) {
+  float: right;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  border-width: 0.4rem;
+  border-style: double;
+  border-color: #C394AA;
+}
+
+.contact_wrapper p {
+  text-align: left;
+  max-width: 70%;
+}
+
+.medias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+.medias img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.medias img:hover {
+  border-color: green;
+}

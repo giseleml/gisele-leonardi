@@ -1,0 +1,19 @@
+.button {
+  width: auto;
+  height: auto;
+  min-width: 17rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border-width: 0.4rem;
+  border-style: double;
+  border-color: #C394AA;
+  cursor: pointer;
+  color: #4a4945;
+  font-size: 1.2rem;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.button:hover {
+  background-color: #ab3e76;
+  color: #FFF;
+}
